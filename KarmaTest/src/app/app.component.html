@@ -1,0 +1,21 @@
+
+<div>
+  <mat-toolbar color="primary" style="display:flex;justify-content:space-between">
+
+    <div>
+      <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">CHECK24</a>
+      <!--<a routerLink="/" routerLinkActive="active" >CHECK24</a>-->
+    </div>
+
+    <div>
+      <a routerLink="home" routerLinkActive="active">HOMe</a>
+      <a routerLink="contact" routerLinkActive="active">CONTACT</a>
+      <a routerLink="service" routerLinkActive="active">SERVICES</a>
+    </div>
+  </mat-toolbar>
+</div>
+
+<router-outlet></router-outlet>
+
+
+

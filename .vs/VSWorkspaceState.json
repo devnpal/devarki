@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\KarmaTest",
+    "\\KarmaTest\\src",
+    "\\KarmaTest\\src\\app",
+    "\\KarmaTest\\src\\app\\components",
+    "\\KarmaTest\\src\\app\\components\\contact",
+    "\\KarmaTest\\src\\app\\components\\pagenotfound",
+    "\\KarmaTest\\src\\app\\modules",
+    "\\KarmaTest\\src\\app\\modules\\material",
+    "\\KarmaTest\\src\\app\\services"
+  ],
+  "SelectedNode": "\\KarmaTest\\src\\app\\app-routing.module.ts",
+  "PreviewInSolutionExplorer": false
+}

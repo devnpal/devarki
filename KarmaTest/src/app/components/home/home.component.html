@@ -1,0 +1,38 @@
+<div>
+  <p>Without Sanitizer</p>
+  <a href="{{myUrl}}">Click Me!</a>
+</div>
+
+<div>
+  <p>Using Sanitizer</p>
+  <a [href]="trustedURL">Click Me!</a>
+</div>
+
+<div>
+  <p>Using Sanitizer</p>
+  <button (click)="popuphello()" >popuphelo</button>
+</div>
+
+<div style="margin:auto">
+  <table>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Body</th>
+      <th>Remarks</th>
+    </tr>
+
+    <tr *ngFor="let data of apiData.slice(0, 20)">
+      <td>{{data.id}}</td>
+      <td>{{data.title}}</td>
+      <td>{{data.body}}</td>
+      <td>
+        <!--<button mat-button color="accent">Accent</button>-->
+        <button mat-button color="primary" (click)="delete(data)" >Delete</button>
+      </td>
+
+    </tr>
+  </table>
+</div>
+
+
